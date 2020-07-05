@@ -1,7 +1,7 @@
 # subosc
 Kosmo or Eurorack format sub oscillator 
 
-Circuit design by Carmelo Azarello
+Circuit design by Analog Lab Swiss (Carmelo Azarello)
 
 PCB and Kosmo front panel design by Rich Holmes
 
