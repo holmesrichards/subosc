@@ -406,7 +406,7 @@ L Connector_Generic:Conn_01x02 J1
 U 1 1 5EC6C5AE
 P 1375 900
 F 0 "J1" H 1293 1117 50  0000 C CNN
-F 1 "Conn_01x02 Osc In" H 1293 1026 50  0000 C CNN
+F 1 "Molex_KK-254_AE-6410-02A" H 1293 1026 50  0000 C CNN
 F 2 "ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 1375 900 50  0001 C CNN
 F 3 "~" H 1375 900 50  0001 C CNN
 	1    1375 900 
@@ -417,7 +417,7 @@ L Connector_Generic:Conn_01x02 J4
 U 1 1 5EC6D01A
 P 9450 2250
 F 0 "J4" H 9530 2242 50  0000 L CNN
-F 1 "Conn_01x02 Sub Osc Out" H 9530 2151 50  0000 L CNN
+F 1 "Molex_KK-254_AE-6410-02A" H 9530 2151 50  0000 L CNN
 F 2 "ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9450 2250 50  0001 C CNN
 F 3 "~" H 9450 2250 50  0001 C CNN
 	1    9450 2250
@@ -561,7 +561,7 @@ L Connector_Generic:Conn_01x02 J5
 U 1 1 5ED9D7AE
 P 9450 2650
 F 0 "J5" H 9530 2642 50  0000 L CNN
-F 1 "Conn_01x02 Sub Osc Out" H 9530 2551 50  0000 L CNN
+F 1 "Molex_KK-254_AE-6410-02A" H 9530 2551 50  0000 L CNN
 F 2 "ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9450 2650 50  0001 C CNN
 F 3 "~" H 9450 2650 50  0001 C CNN
 	1    9450 2650
@@ -766,7 +766,7 @@ L Connector_Generic:Conn_01x02 J6
 U 1 1 5EE57E7C
 P 9450 3050
 F 0 "J6" H 9530 3042 50  0000 L CNN
-F 1 "Conn_01x02 Sub Osc Out" H 9530 2951 50  0000 L CNN
+F 1 "Molex_KK-254_AE-6410-02A" H 9530 2951 50  0000 L CNN
 F 2 "ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9450 3050 50  0001 C CNN
 F 3 "~" H 9450 3050 50  0001 C CNN
 	1    9450 3050
@@ -781,7 +781,7 @@ L Connector_Generic:Conn_01x03 J3
 U 1 1 5EED71B3
 P 5375 2125
 F 0 "J3" H 5293 2442 50  0000 C CNN
-F 1 "Conn_01x03" H 5293 2351 50  0000 C CNN
+F 1 "Molex_KK-254_AE-6410-03A" H 5293 2351 50  0000 C CNN
 F 2 "ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 5375 2125 50  0001 C CNN
 F 3 "~" H 5375 2125 50  0001 C CNN
 	1    5375 2125
@@ -811,7 +811,7 @@ L Connector_Generic:Conn_01x01 J7
 U 1 1 5EE6A203
 P 5575 4575
 F 0 "J7" H 5655 4617 50  0000 L CNN
-F 1 "Conn_01x01" H 5655 4526 50  0000 L CNN
+F 1 "Wire pad" H 5655 4526 50  0000 L CNN
 F 2 "ao_tht:SolderWirePad_1x01_Drill1mm" H 5575 4575 50  0001 C CNN
 F 3 "~" H 5575 4575 50  0001 C CNN
 	1    5575 4575
@@ -823,7 +823,7 @@ L Connector_Generic:Conn_01x01 J8
 U 1 1 5EE6AA34
 P 5575 5375
 F 0 "J8" H 5655 5417 50  0000 L CNN
-F 1 "Conn_01x01" H 5655 5326 50  0000 L CNN
+F 1 "Wire pad" H 5655 5326 50  0000 L CNN
 F 2 "ao_tht:SolderWirePad_1x01_Drill1mm" H 5575 5375 50  0001 C CNN
 F 3 "~" H 5575 5375 50  0001 C CNN
 	1    5575 5375
@@ -832,4 +832,90 @@ $EndComp
 Connection ~ 5375 5375
 Text Label 5575 2125 0    50   ~ 0
 SUB_OSC_MIX
+$Comp
+L Connector:AudioJack2 J9
+U 1 1 5F01F27F
+P 7550 4200
+F 0 "J9" H 7582 4525 50  0000 C CNN
+F 1 "1/4\" Jack" H 7582 4434 50  0000 C CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 7550 4200 50  0001 C CNN
+F 3 "~" H 7550 4200 50  0001 C CNN
+	1    7550 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2 J11
+U 1 1 5F01FFE3
+P 8450 4200
+F 0 "J11" H 8482 4525 50  0000 C CNN
+F 1 "1/4\" Jack" H 8482 4434 50  0000 C CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 8450 4200 50  0001 C CNN
+F 3 "~" H 8450 4200 50  0001 C CNN
+	1    8450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2 J10
+U 1 1 5F02198F
+P 7550 4725
+F 0 "J10" H 7582 5050 50  0000 C CNN
+F 1 "1/4\" Jack" H 7582 4959 50  0000 C CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 7550 4725 50  0001 C CNN
+F 3 "~" H 7550 4725 50  0001 C CNN
+	1    7550 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2 J12
+U 1 1 5F021995
+P 8450 4725
+F 0 "J12" H 8482 5050 50  0000 C CNN
+F 1 "1/4\" Jack" H 8482 4959 50  0000 C CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 8450 4725 50  0001 C CNN
+F 3 "~" H 8450 4725 50  0001 C CNN
+	1    8450 4725
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7750 4100
+NoConn ~ 7750 4200
+NoConn ~ 7750 4625
+NoConn ~ 7750 4725
+NoConn ~ 8650 4725
+NoConn ~ 8650 4625
+NoConn ~ 8650 4200
+NoConn ~ 8650 4100
+$Comp
+L Device:R_POT RV1
+U 1 1 5F02FFFD
+P 7550 5150
+F 0 "RV1" H 7481 5196 50  0000 R CNN
+F 1 "B100k" H 7481 5105 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 7550 5150 50  0001 C CNN
+F 3 "~" H 7550 5150 50  0001 C CNN
+	1    7550 5150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7550 5000
+NoConn ~ 7700 5150
+NoConn ~ 7550 5300
+Text Notes 7275 4300 2    50   ~ 0
+Osc In
+Text Notes 7275 4825 2    50   ~ 0
+Sub Osc Out
+Text Notes 8700 4300 0    50   ~ 0
+Clock Div 2 Out
+Text Notes 8700 4825 0    50   ~ 0
+Clock Div 4 Out
+Text Notes 7775 5250 0    50   ~ 0
+Sub Osc Mix
+Wire Notes Line
+	6600 3625 9450 3625
+Wire Notes Line
+	9450 3625 9450 5650
+Wire Notes Line
+	9450 5650 6600 5650
+Wire Notes Line
+	6600 5650 6600 3625
+Text Notes 6650 3750 0    50   ~ 0
+Panel components
 $EndSCHEMATC
