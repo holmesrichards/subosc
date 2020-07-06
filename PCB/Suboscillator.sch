@@ -375,9 +375,9 @@ $EndComp
 Wire Wire Line
 	1700 900  1575 900 
 Text Label 5025 1450 0    50   ~ 0
--1_OCT_1
+-1_OCT
 Text Label 5025 2800 0    50   ~ 0
--2_OCT_1
+-2_OCT
 Wire Wire Line
 	4825 4575 4825 4650
 Wire Wire Line
@@ -918,4 +918,14 @@ Wire Notes Line
 	6600 5650 6600 3625
 Text Notes 6650 3750 0    50   ~ 0
 Panel components
+Wire Notes Line
+	6750 2200 7250 2200
+Wire Notes Line
+	7250 2200 7250 2950
+Wire Notes Line
+	7250 2950 6750 2950
+Wire Notes Line
+	6750 2950 6750 2200
+Text Notes 7100 2525 0    50   ~ 0
+Optional, likely useless, \ncan be omitted
 $EndSCHEMATC
