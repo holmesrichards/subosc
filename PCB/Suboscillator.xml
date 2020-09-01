@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/scratch/Sub oscillator/PCB/Suboscillator.sch</source>
-    <date>Sun 05 Jul 2020 09:53:15 AM EDT</date>
-    <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
+    <date>Tue 01 Sep 2020 08:36:15 AM EDT</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Suboscillator</title>
@@ -20,14 +20,14 @@
   </design>
   <components>
     <comp ref="J2">
-      <value>EURO_PWR_2x5</value>
+      <value>EURO_PWR_2x5 (*)</value>
       <footprint>ao_tht:Power_Header</footprint>
       <libsource lib="suboscillator" part="EURO_PWR_2x5" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EE198A9</tstamp>
     </comp>
     <comp ref="D2">
-      <value>1n5817</value>
+      <value>1n5817 (*)</value>
       <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
@@ -35,28 +35,12 @@
       <tstamp>5EE198AF</tstamp>
     </comp>
     <comp ref="C2">
-      <value>10uF</value>
+      <value>10uF (*)</value>
       <footprint>ao_tht:CP_Radial_D5.0mm_P2.00mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EE198BB</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>10k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EE1BFD4</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>3.3k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EE1ED0E</tstamp>
     </comp>
     <comp ref="U1">
       <value>4013</value>
@@ -64,7 +48,7 @@
       <datasheet>http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF</datasheet>
       <libsource lib="4xxx" part="4013" description="Dual D  FlipFlop, Set &amp; reset"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EE20D2E</tstamp>
+      <tstamp>5EE2151B</tstamp>
     </comp>
     <comp ref="C3">
       <value>0.1uF</value>
@@ -75,164 +59,20 @@
       <tstamp>5EE7E5D1</tstamp>
     </comp>
     <comp ref="J1">
-      <value>Molex_KK-254_AE-6410-02A</value>
+      <value>2 PIN HDR</value>
       <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="ao_symbols" part="2_Pin_Molex_Header" description="2 pin Molex header 2.54 mm"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EC6C5AE</tstamp>
     </comp>
-    <comp ref="J4">
-      <value>Molex_KK-254_AE-6410-02A</value>
-      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EC6D01A</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>100k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ECDE885</tstamp>
-    </comp>
-    <comp ref="Q1">
-      <value>BC547</value>
-      <footprint>ao_tht:TO-92_Inline_Wide</footprint>
-      <datasheet>http://www.fairchildsemi.com/ds/BC/BC547.pdf</datasheet>
-      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ECE896E</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>10uF</value>
-      <footprint>ao_tht:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ECE9215</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>1N4148</value>
-      <footprint>ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
-      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ED39B99</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>100k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ED3ABC8</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>56k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ED48408</tstamp>
-    </comp>
-    <comp ref="J5">
-      <value>Molex_KK-254_AE-6410-02A</value>
-      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ED9D7AE</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>1k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EE12D31</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>1n4733</value>
-      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EE1318E</tstamp>
-    </comp>
-    <comp ref="D6">
-      <value>1n4733</value>
-      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EE0C670</tstamp>
-    </comp>
-    <comp ref="D5">
-      <value>1n4733</value>
-      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EE0BDD5</tstamp>
-    </comp>
-    <comp ref="R9">
-      <value>1k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EE0AB18</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>100k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EE0A501</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>47uF</value>
-      <footprint>ao_tht:CP_Radial_D6.3mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ECFD283</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>1k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EE22CB9</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>1n4733</value>
-      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EE22CC3</tstamp>
-    </comp>
     <comp ref="J6">
-      <value>Molex_KK-254_AE-6410-02A</value>
+      <value>2 PIN HDR (*)</value>
       <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="ao_symbols" part="2_Pin_Molex_Header" description="2 pin Molex header 2.54 mm"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EE57E7C</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>Molex_KK-254_AE-6410-03A</value>
-      <footprint>ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EED71B3</tstamp>
     </comp>
     <comp ref="J7">
       <value>Wire pad</value>
@@ -250,37 +90,173 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EE6AA34</tstamp>
     </comp>
-    <comp ref="J9">
-      <value>1/4" Jack</value>
-      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+    <comp ref="J3">
+      <value>3 PIN HDR</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <libsource lib="ao_symbols" part="3_Pin_Molex_Header" description="3 pin Molex header 2.54 mm"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F01F27F</tstamp>
+      <tstamp>5EED71B3</tstamp>
     </comp>
-    <comp ref="J11">
-      <value>1/4" Jack</value>
-      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+    <comp ref="D4">
+      <value>1n4733 (*)</value>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F01FFE3</tstamp>
+      <tstamp>5EE22CC3</tstamp>
     </comp>
-    <comp ref="J10">
-      <value>1/4" Jack</value>
-      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+    <comp ref="R7">
+      <value>1k (*)</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F02198F</tstamp>
+      <tstamp>5EE22CB9</tstamp>
     </comp>
-    <comp ref="J12">
-      <value>1/4" Jack</value>
-      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+    <comp ref="C4">
+      <value>47uF</value>
+      <footprint>ao_tht:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F021995</tstamp>
+      <tstamp>5ECFD283</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE0A501</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE0AB18</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1n4733</value>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE0BDD5</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1n4733</value>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE0C670</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1n4733 (*)</value>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE1318E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k (*)</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE12D31</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>56k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED48408</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED39B99</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC547</value>
+      <footprint>ao_tht:TO-92_Inline_Wide</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC547.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECE896E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECDE885</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>3.3k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE1ED0E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE1BFD4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>ao_tht:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECE9215</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED3ABC8</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>2 PIN HDR (*)</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_Pin_Molex_Header" description="2 pin Molex header 2.54 mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC6D01A</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>2 PIN HDR</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_Pin_Molex_Header" description="2 pin Molex header 2.54 mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED9D7AE</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>3 PIN CONN</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="3_Pin_Molex_Connector" description="3 pin Molex connector 2.54 mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5743B3</tstamp>
     </comp>
     <comp ref="RV1">
       <value>B100k</value>
@@ -289,6 +265,70 @@
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F02FFFD</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>2 PIN CONN</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_Pin_Molex_Connector" description="2 pin Molex connector 2.54 mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F552BFE</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F55E8A1</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>AudioJack2</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F55F61F</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>AudioJack2 (*)</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F55FC33</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>AudioJack2 (*)</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F560956</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>2 PIN CONN</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_Pin_Molex_Connector" description="2 pin Molex connector 2.54 mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F563D8E</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>2 PIN CONN (*)</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_Pin_Molex_Connector" description="2 pin Molex connector 2.54 mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F564375</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>2 PIN CONN (*)</value>
+      <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ao_symbols" part="2_Pin_Molex_Connector" description="2 pin Molex connector 2.54 mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F56490C</tstamp>
     </comp>
   </components>
   <libparts>
@@ -348,37 +388,6 @@
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x02">
-      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x02</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x03">
-      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -537,6 +546,68 @@
         <pin num="3" name="E" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="ao_symbols" part="2_Pin_Molex_Connector">
+      <description>2 pin Molex connector 2.54 mm</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">2_Pin_Molex_Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="2_Pin_Molex_Header">
+      <description>2 pin Molex header 2.54 mm</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">2_Pin_Molex_Header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="3_Pin_Molex_Connector">
+      <description>3 pin Molex connector 2.54 mm</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">3_Pin_Molex_Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="3_Pin_Molex_Header">
+      <description>3 pin Molex header 2.54 mm</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">3_Pin_Molex_Header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="suboscillator" part="EURO_PWR_2x5">
       <fields>
         <field name="Reference">J</field>
@@ -575,159 +646,171 @@
     <library logical="Transistor_BJT">
       <uri>/usr/share/kicad/library/Transistor_BJT.lib</uri>
     </library>
+    <library logical="ao_symbols">
+      <uri>/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/scratch/Sub oscillator/PCB/ao_symbols.lib</uri>
+    </library>
     <library logical="suboscillator">
       <uri>/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/scratch/Sub oscillator/PCB/suboscillator.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(C4-Pad2)">
-      <node ref="R9" pin="2"/>
-      <node ref="R8" pin="1"/>
-      <node ref="C4" pin="2"/>
+    <net code="1" name="Net-(D1-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="11"/>
     </net>
-    <net code="2" name="+12V">
-      <node ref="J7" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="U1" pin="14"/>
-      <node ref="C2" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="C3" pin="1"/>
-    </net>
-    <net code="3" name="GND">
+    <net code="2" name="GND">
+      <node ref="D3" pin="2"/>
       <node ref="C2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="7"/>
       <node ref="J2" pin="3"/>
+      <node ref="Q1" pin="3"/>
       <node ref="J2" pin="4"/>
       <node ref="J2" pin="5"/>
+      <node ref="J5" pin="2"/>
       <node ref="J2" pin="6"/>
       <node ref="J2" pin="7"/>
-      <node ref="J2" pin="8"/>
-      <node ref="D3" pin="2"/>
-      <node ref="J6" pin="2"/>
-      <node ref="U1" pin="10"/>
-      <node ref="U1" pin="8"/>
-      <node ref="J5" pin="2"/>
-      <node ref="U1" pin="7"/>
-      <node ref="D4" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="J1" pin="2"/>
       <node ref="J4" pin="2"/>
+      <node ref="J2" pin="8"/>
+      <node ref="D4" pin="2"/>
       <node ref="R1" pin="2"/>
       <node ref="C1" pin="2"/>
-      <node ref="U1" pin="4"/>
-      <node ref="Q1" pin="3"/>
+      <node ref="R8" pin="2"/>
       <node ref="U1" pin="6"/>
-      <node ref="D6" pin="2"/>
-      <node ref="J8" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="10"/>
     </net>
-    <net code="4" name="CLOCK_DIV_2_OUT">
-      <node ref="D3" pin="1"/>
-      <node ref="J4" pin="1"/>
-      <node ref="R6" pin="1"/>
-    </net>
-    <net code="5" name="SUB_OSC_OUT">
-      <node ref="J5" pin="1"/>
-      <node ref="D5" pin="2"/>
-      <node ref="R9" pin="1"/>
-    </net>
-    <net code="6" name="Net-(D5-Pad1)">
-      <node ref="D6" pin="1"/>
-      <node ref="D5" pin="1"/>
-    </net>
-    <net code="7" name="Net-(C1-Pad1)">
-      <node ref="D1" pin="2"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="8" name="Net-(D1-Pad1)">
-      <node ref="R4" pin="1"/>
-      <node ref="U1" pin="11"/>
-      <node ref="D1" pin="1"/>
-    </net>
-    <net code="9" name="Net-(R5-Pad1)">
-      <node ref="R5" pin="1"/>
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="10" name="Net-(J12-PadT)">
-      <node ref="J12" pin="T"/>
-    </net>
-    <net code="11" name="/SUB_OSC_MIX">
-      <node ref="J3" pin="2"/>
-      <node ref="C4" pin="1"/>
-    </net>
-    <net code="12" name="Net-(J9-PadS)">
-      <node ref="J9" pin="S"/>
-    </net>
-    <net code="13" name="Net-(J9-PadT)">
-      <node ref="J9" pin="T"/>
-    </net>
-    <net code="14" name="Net-(J11-PadS)">
-      <node ref="J11" pin="S"/>
-    </net>
-    <net code="15" name="Net-(J11-PadT)">
-      <node ref="J11" pin="T"/>
-    </net>
-    <net code="16" name="Net-(J10-PadS)">
-      <node ref="J10" pin="S"/>
-    </net>
-    <net code="17" name="Net-(J10-PadT)">
-      <node ref="J10" pin="T"/>
-    </net>
-    <net code="18" name="Net-(J12-PadS)">
-      <node ref="J12" pin="S"/>
-    </net>
-    <net code="19" name="Net-(RV1-Pad1)">
-      <node ref="RV1" pin="1"/>
-    </net>
-    <net code="20" name="Net-(RV1-Pad2)">
-      <node ref="RV1" pin="2"/>
-    </net>
-    <net code="21" name="Net-(RV1-Pad3)">
-      <node ref="RV1" pin="3"/>
-    </net>
-    <net code="22" name="CLOCK_DIV_4_OUT">
-      <node ref="R7" pin="1"/>
-      <node ref="J6" pin="1"/>
-      <node ref="D4" pin="1"/>
-    </net>
-    <net code="23" name="Net-(Q1-Pad2)">
+    <net code="3" name="Net-(Q1-Pad2)">
       <node ref="Q1" pin="2"/>
       <node ref="R2" pin="1"/>
     </net>
-    <net code="24" name="Net-(R5-Pad2)">
+    <net code="4" name="Net-(R5-Pad2)">
       <node ref="U1" pin="9"/>
       <node ref="R5" pin="2"/>
     </net>
-    <net code="25" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="J2" pin="10"/>
-      <node ref="J2" pin="9"/>
+    <net code="5" name="Net-(R5-Pad1)">
+      <node ref="U1" pin="12"/>
+      <node ref="R5" pin="1"/>
     </net>
-    <net code="26" name="Net-(J2-Pad1)">
-      <node ref="J2" pin="2"/>
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="27" name="/-1_OCT_1">
-      <node ref="U1" pin="3"/>
-      <node ref="R6" pin="2"/>
-      <node ref="J3" pin="1"/>
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="28" name="/-2_OCT_1">
-      <node ref="U1" pin="1"/>
-      <node ref="J3" pin="3"/>
-      <node ref="R7" pin="2"/>
-    </net>
-    <net code="29" name="OSC_INPUT">
+    <net code="6" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
       <node ref="R2" pin="2"/>
       <node ref="R1" pin="1"/>
-      <node ref="J1" pin="1"/>
     </net>
-    <net code="30" name="Net-(U1-Pad2)">
-      <node ref="U1" pin="5"/>
+    <net code="7" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="8" name="/-2_OCT">
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="1"/>
       <node ref="U1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J17-Pad2)">
+      <node ref="RV1" pin="2"/>
+      <node ref="J17" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J17-Pad1)">
+      <node ref="RV1" pin="1"/>
+      <node ref="J17" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J17-Pad3)">
+      <node ref="J17" pin="3"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="12" name="Net-(J10-Pad2)">
+      <node ref="J9" pin="S"/>
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="13" name="Net-(J10-Pad1)">
+      <node ref="J9" pin="T"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="14" name="Net-(J13-PadT)">
+      <node ref="J13" pin="T"/>
+      <node ref="J14" pin="1"/>
+    </net>
+    <net code="15" name="Net-(J13-PadS)">
+      <node ref="J13" pin="S"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="16" name="Net-(J15-PadT)">
+      <node ref="J15" pin="T"/>
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="17" name="Net-(J15-PadS)">
+      <node ref="J15" pin="S"/>
+      <node ref="J16" pin="2"/>
+    </net>
+    <net code="18" name="Net-(J11-PadT)">
+      <node ref="J11" pin="T"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="19" name="Net-(J11-PadS)">
+      <node ref="J11" pin="S"/>
+      <node ref="J12" pin="2"/>
+    </net>
+    <net code="20" name="/-1_OCT">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="21" name="Net-(D4-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D3-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D5-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D2-Pad2)">
+      <node ref="J2" pin="9"/>
+      <node ref="J2" pin="10"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="25" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="26" name="+12V">
+      <node ref="J7" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="28" name="/SUB_OSC_MIX">
+      <node ref="C4" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="29" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="2"/>
     </net>
   </nets>
 </export>
