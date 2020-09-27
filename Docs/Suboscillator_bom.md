@@ -5,6 +5,7 @@ Tue 01 Sep 2020 08:36:15 AM EDT
 Generated from schematic by Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1
 
 Parts for one unit. Parts marked (*) are not used for second unit in dual module.
+
 **Component Count:** 39
 
 | Value | Qty | Part | Description | Vendor |
