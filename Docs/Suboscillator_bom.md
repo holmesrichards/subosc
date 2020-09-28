@@ -4,7 +4,7 @@ Tue 01 Sep 2020 08:36:15 AM EDT
 
 Generated from schematic by Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1
 
-Parts for one unit. Parts marked (*) are not used for second unit in dual module.
+Parts for one unit. Parts marked (*) are not used for second unit in dual module. Parts marked (**) are optional for both units.
 
 **Component Count:** 39
 
@@ -17,7 +17,7 @@ Parts for one unit. Parts marked (*) are not used for second unit in dual module
 | D1 | 1 | 1N4148 | 100V 0.15A standard switching diode, DO-35 |  |
 | D2 | 1 | 1n5817 (*) | Schottky diode |  |
 | D3, D4 | 2 | 1n4733 (*) | Zener diode |  |
-| D5, D6 | 2 | 1n4733 | Zener diode |  |
+| D5, D6 | 2 | 1n4733 (**) | Zener diode |  |
 | J1, J5 | 2 | 2 PIN HDR | 2 pin Molex header 2.54 mm |  |
 | J2 | 1 | EURO_PWR_2x5 (*) |  |  |
 | J3 | 1 | 3 PIN HDR | 3 pin Molex header 2.54 mm |  |
