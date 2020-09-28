@@ -695,7 +695,7 @@ AR Path="/5EE17AF7/5ECE9215" Ref="C?"  Part="1"
 AR Path="/5ECE9215" Ref="C1"  Part="1" 
 F 0 "C1" H 3018 1646 50  0000 L CNN
 F 1 "10nF" H 3018 1555 50  0000 L CNN
-F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 2938 1450 50  0001 C CNN
+F 2 "ao_tht:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 2938 1450 50  0001 C CNN
 F 3 "~" H 2900 1600 50  0001 C CNN
 	1    2900 1600
 	1    0    0    -1  
