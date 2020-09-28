@@ -10,7 +10,7 @@ Parts for one unit. Parts marked (*) are not used for second unit in dual module
 
 | Value | Qty | Part | Description | Vendor |
 | ----- | --- | ---- | ----------- | ------ |
-| C1 | 1 | 10uF | Polarized capacitor |  |
+| C1 | 1 | 10nF | Unpolarized capacitor |  |
 | C2 | 1 | 10uF (*) | Polarized capacitor |  |
 | C3 | 1 | 0.1uF | Unpolarized capacitor |  |
 | C4 | 1 | 47uF | Polarized capacitor |  |
