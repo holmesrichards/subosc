@@ -319,8 +319,6 @@ $EndComp
 Text Notes 5175 2375 0    50   ~ 0
 To Sub\nOsc Mix
 Wire Wire Line
-	5550 2150 5550 2700
-Wire Wire Line
 	5550 1350 5550 1950
 $Comp
 L ao_symbols:3_Pin_Molex_Header J3
@@ -333,9 +331,6 @@ F 3 "~" H 5350 2050 50  0001 C CNN
 	1    5350 2050
 	-1   0    0    -1  
 $EndComp
-Connection ~ 5550 2700
-Wire Wire Line
-	5550 2700 5550 3000
 Wire Wire Line
 	6250 3000 6450 3000
 $Comp
@@ -533,8 +528,6 @@ F 3 "" H 2900 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4925 2700 5075 2700
-Wire Wire Line
 	5150 1350 5550 1350
 $Comp
 L Transistor_BJT:BC547 Q1
@@ -578,45 +571,20 @@ F 3 "" H 4625 3100 50  0001 C CNN
 $EndComp
 Connection ~ 5150 1350
 Wire Wire Line
-	4150 2800 4325 2800
-Wire Wire Line
 	4150 2125 4150 2800
 Wire Wire Line
 	5150 2125 4150 2125
 Wire Wire Line
 	5150 1350 5150 2125
-Wire Wire Line
-	4625 2475 5000 2475
-Wire Wire Line
-	4625 2500 4625 2475
 $Comp
 L power:GND #PWR015
 U 1 1 5EE266F0
-P 5000 2475
-F 0 "#PWR015" H 5000 2225 50  0001 C CNN
-F 1 "GND" H 5005 2302 50  0000 C CNN
-F 2 "" H 5000 2475 50  0001 C CNN
-F 3 "" H 5000 2475 50  0001 C CNN
-	1    5000 2475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5075 2900 4925 2900
-Wire Wire Line
-	5075 2250 5075 2700
-Wire Wire Line
-	4325 2250 5075 2250
-Wire Wire Line
-	4325 2700 4325 2250
-$Comp
-L 4xxx:4013 U1
-U 1 1 5EE24564
-P 4625 2800
-F 0 "U1" H 4625 3281 50  0000 C CNN
-F 1 "4013" H 4625 3190 50  0000 C CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 4625 2800 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 4625 2800 50  0001 C CNN
-	1    4625 2800
+P 5000 2500
+F 0 "#PWR015" H 5000 2250 50  0001 C CNN
+F 1 "GND" H 5005 2327 50  0000 C CNN
+F 2 "" H 5000 2500 50  0001 C CNN
+F 3 "" H 5000 2500 50  0001 C CNN
+	1    5000 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -825,11 +793,6 @@ Text Notes 825  2050 0    50   ~ 0
 To Osc In
 Wire Wire Line
 	7250 5450 7475 5450
-Connection ~ 5075 2700
-Wire Wire Line
-	5075 2700 5550 2700
-Wire Wire Line
-	5075 2700 5075 2900
 Connection ~ 4900 4550
 Wire Wire Line
 	4325 4850 4325 4900
@@ -997,4 +960,36 @@ Wire Wire Line
 	5550 3000 5950 3000
 Wire Wire Line
 	5550 1350 5950 1350
+Wire Wire Line
+	4150 2800 4350 2800
+Wire Wire Line
+	5550 2150 5550 2700
+Connection ~ 5550 2700
+Wire Wire Line
+	5550 2700 5550 3000
+Wire Wire Line
+	4650 2500 5000 2500
+Wire Wire Line
+	4950 2700 5550 2700
+Wire Wire Line
+	4950 2900 5100 2900
+Wire Wire Line
+	5100 2900 5100 2250
+$Comp
+L 4xxx:4013 U1
+U 1 1 5EE24564
+P 4650 2800
+F 0 "U1" H 4650 3281 50  0000 C CNN
+F 1 "4013" H 4650 3190 50  0000 C CNN
+F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 4650 2800 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 4650 2800 50  0001 C CNN
+	1    4650 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2700 4300 2250
+Wire Wire Line
+	4300 2250 5100 2250
+Wire Wire Line
+	4300 2700 4350 2700
 $EndSCHEMATC
