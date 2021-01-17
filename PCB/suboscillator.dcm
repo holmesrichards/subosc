@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP REF02CP+
+D High Precision, 5V Reference, DIP-8, SO-8
+K voltage reference
+F https://datasheets.maximintegrated.com/en/ds/REF01-REF02.pdf
+$ENDCMP
+#
+#End Doc Library

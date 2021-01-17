@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2_Pin_Molex_Connector
+D 2 pin Molex connector 2.54 mm
+K connector
+F ~
+$ENDCMP
+#
+$CMP 2_Pin_Molex_Header
+D 2 pin Molex header 2.54 mm
+K connector
+F ~
+$ENDCMP
+#
+$CMP 3_Pin_Molex_Connector
+D 3 pin Molex connector 2.54 mm
+K connector
+F ~
+$ENDCMP
+#
+$CMP 3_Pin_Molex_Header
+D 3 pin Molex header 2.54 mm
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library

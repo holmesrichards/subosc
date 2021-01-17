@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name subosc_panel)(type KiCad)(uri ${KIPRJMOD}/subosc_panel.pretty)(options "")(descr ""))
+  (lib (name Kosmo_panel)(type KiCad)(uri ${KIPRJMOD}/Kosmo_panel.pretty)(options "")(descr ""))
+)
